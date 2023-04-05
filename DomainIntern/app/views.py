@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from app.models import DomainsModel
-from pywhoisxml.lookup import Lookup
+#from pywhoisxml.lookup import Lookup
 import whois
 from datetime import datetime
 import requests
